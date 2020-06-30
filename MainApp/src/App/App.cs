@@ -72,7 +72,11 @@ namespace Assignment_DmitrijKosmakov_Danske
                 Console.SetOut(writer);
 
                 foreach (var shape in shapes)
-                    Console.WriteLine(String.Format("{0} => area={1}", shape.ToString(), shape.Area));
+                {
+                    var attributes = shape is Rectangle rect ? String.Format("tall/flat={0}", (shape as Rectangle).TallOrFlat()) : "none";
+                    var line = String.Format("{0} => area=[{1}], attributes=[{2}]", shape.ToString(), shape.Area, attributes);
+                    Console.WriteLine(line);
+                }
                 writer.Flush();
             }
             // Restore standard output
