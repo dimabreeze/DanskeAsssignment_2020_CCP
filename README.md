@@ -11,8 +11,6 @@ Usage:
 ------
 `MainApp.exe [inputfile] [outputfile (optional)]`
 
-where:
-###
     [inputfile]  -   a list of shapes (rectangles), see data format below
     [outputfile] -   if omitted - output goes to the standard console
 
