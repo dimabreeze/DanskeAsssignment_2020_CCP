@@ -13,8 +13,8 @@ Usage:
 
 where:
 ###
-    [inputfile]  -   a list of shapes (rectangles), see data format below`
-    [outputfile] -   if omitted - output goes to the standard console`
+    [inputfile]  -   a list of shapes (rectangles), see data format below
+    [outputfile] -   if omitted - output goes to the standard console
 
 
 Expected input data format: 
