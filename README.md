@@ -11,8 +11,8 @@ Usage:
 ------
 `MainApp.exe [inputfile] [outputfile (optional)]`
 
-    [inputfile]  -   a list of shapes (rectangles), see data format below
-    [outputfile] -   if omitted - output goes to the standard console
+    [inputfile]  -   Contains a list of shapes (rectangles), see data format below
+    [outputfile] -   Specifies an output file. If omitted - output goes to the standard console
 
 
 Expected input data format: 
