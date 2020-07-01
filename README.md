@@ -9,24 +9,22 @@ Please create a small program that takes a number of rectangles as input. The pr
 
 Usage:
 ------
-MainApp.exe [inputfile] [outputfile (optional)]
+`MainApp.exe [inputfile] [outputfile (optional)]`
 
 where:
-
-, [inputfile]  ===>   a list of shapes (rectangles), see data format below
-
-, [outputfile] ===>   if omitted - output goes to the standard console
+###
+    [inputfile]  -   a list of shapes (rectangles), see data format below`
+    [outputfile] -   if omitted - output goes to the standard console`
 
 
 Expected input data format: 
 --------------------------
-N lines of four comma- or tab-separated double precision values.
+`N` lines of four comma- or tab-separated double precision values.
 
 Each line stores rectangle's horizontal and vertical positions, as well as its width and height values, e.g.:
 
-example 1: 54	-65	798	361 => rectangle at (x:54,y:-65), having width:798 and height:361. 
-
-example 2: 72,30,240,81   => rectangle at (x:72,y:30),  having width:240 and height:81. 
+* example 1: `54	-65	798	361` => rectangle at `(x:54,y:-65)`, having `width:798` and `height:361`. 
+* example 2: `72,30,240,81`   => rectangle at `(x:72,y:30)`,  having `width:240` and `height:81`. 
 
 
               
